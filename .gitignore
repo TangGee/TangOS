@@ -1,3 +1,5 @@
 goldfish
 build
+.idea
+.idea/*
 goldfish/*

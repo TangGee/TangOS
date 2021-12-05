@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f860cad-ec2a-4eb4-978f-c5c0fedea972" name="Default Changelist" comment="" />
+    <list default="true" id="3f860cad-ec2a-4eb4-978f-c5c0fedea972" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/fs/fuse/inode.c" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/fs/fuse/inode.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/head.S" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/head.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tang.link.lds" beforeDir="false" afterPath="$PROJECT_DIR$/src/tang.link.lds" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +25,11 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1zdMohfLiNNG6OmAFpbZQizIsCv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
+    <property name="last_opened_file_path" value="$USER_HOME$/sdb/os/armv8_me/lab01" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -35,6 +49,17 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="CLion_Remote" version="1" remoteCommand="127.0.0.1:1234" symbolFile="$PROJECT_DIR$/build/tang.elf" sysroot="">
+      <debugger kind="GDB" isBundled="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,10 +81,44 @@
       <workItem from="1638014787012" duration="798000" />
       <workItem from="1638058772824" duration="4000" />
       <workItem from="1638059070604" duration="3126000" />
+      <workItem from="1638101890307" duration="1443000" />
+      <workItem from="1638601015241" duration="1411000" />
+      <workItem from="1638602828405" duration="1970000" />
+      <workItem from="1638604810198" duration="600000" />
+      <workItem from="1638624679915" duration="607000" />
+      <workItem from="1638670057478" duration="615000" />
+      <workItem from="1638677890667" duration="1599000" />
+      <workItem from="1638679701201" duration="1426000" />
+      <workItem from="1638681698994" duration="1298000" />
+      <workItem from="1638688747625" duration="354000" />
+      <workItem from="1638692872263" duration="1166000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/kernel/kernel.c</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

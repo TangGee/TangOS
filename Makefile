@@ -25,7 +25,7 @@ INC_DIR = \
 	-I./src \
 
 #这里添加编译参数
-CC_FLAGS += -g -Wall -nostdlib -nostdinc INC_DIR
+CC_FLAGS += -g -Wall -nostdlib -nostdinc $(INC_DIR)
 ASM_FLAGS = -g $(INC_DIR)
 LNK_FLAGS :=
 
@@ -76,11 +76,11 @@ QEMU_OPS  += -nographic
 PHONY += run
 
 run:
-	qemu-system-aarch64 $(QEMU_OPS) -kernel tang.bin
+	qemu-system-aarch64 $(QEMU_OPS) -kernel $(BUILD_DIR)/tang.bin
 
 PHONY += debug
 debug:
-	qemu-system-aarch64 $(QEMU_OPS) -kernel tang.bin -S -s
+	qemu-system-aarch64 $(QEMU_OPS) -kernel $(BUILD_DIR)/tang.bin -S -s
 
 PHONY += help
 help :
